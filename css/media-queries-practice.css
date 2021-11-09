@@ -1,7 +1,58 @@
 /* ----------------------------------------
 
 Styles for Media Queries Practice Exercise
-Author: Your Name Here 
+Author: Isaak Maldonado 
 
 ----------------------------------------- */
+#row{
+    display: flex;        
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    .div0{width: 100%; background-color: red;}
+    .div1{width: 31%; background-color: orange;}
+    .div2{width: 31%; background-color: yellow;}
+    .div3{width: 31%; background-color: green;}
+    .div4{width: 48.9%; background-color: blue;}
+    .div5{width: 48.9%; background-color: purple;}
+    .div6{width: 23%; background-color: red;}
+    .div7{width: 23%; background-color: orange;}
+    .div8{width: 23%; background-color: yellow;}
+    .div9{width: 23%; background-color: green;}
 
+@media screen and (max-width: 1024px) and (min-width:641px){
+    #row{
+        display: flex;        
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+        .div0{width: 100%; background-color: purple;}
+        .div1{width: 48.9%; background-color: blue;}
+        .div2{width: 48.9%; background-color: green;}
+        .div3{width: 48.9%; background-color: yellow;}
+        .div4{width: 48.9%; background-color: orange;}
+        .div5{width: 48.9%; background-color: red;}
+        .div6{width: 48.9%; background-color: purple;}
+        .div7{width: 31%; background-color: blue;}
+        .div8{width: 31%; background-color: green;}
+        .div9{width: 31%; background-color: yellow;}
+}
+
+
+@media screen and (max-width: 640px){
+    #row{
+        display: flex;        
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+        .div0{width: 100%; background-color: red;}
+        .div1{width: 48.9%; background-color: orange;}
+        .div2{width: 48.9%; background-color: yellow;}
+        .div3{width: 100%; background-color: green;}
+        .div4{width: 100%; background-color: blue;}
+        .div5{width: 100%; background-color: purple;}
+        .div6{width: 100%; background-color: red;}
+        .div7{width: 100%; background-color: orange;}
+        .div8{width: 100%; background-color: yellow;}
+        .div9{width: 100%; background-color: green;}
+    }
