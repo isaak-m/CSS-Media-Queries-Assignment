@@ -4,12 +4,14 @@ Styles for Media Queries Practice Exercise
 Author: Isaak Maldonado 
 
 ----------------------------------------- */
+h1{background-color: hotpink; margin: auto;}
 #row{
     display: flex;        
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: large;
     color: white;
+    margin: auto; 
 }
     .div0{width: 100%; background-color: orangered;}
     .div1{width: 31%; background-color: tan;}
